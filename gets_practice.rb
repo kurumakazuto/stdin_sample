@@ -2,5 +2,5 @@ line = gets.split(' ')
 p line
 
 line.each do |word|
-  p word
+    p word
 end
