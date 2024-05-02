@@ -16,12 +16,18 @@ puts "何番目の数が知りたいですか"
 num = gets.to_i
 puts fibonatti(num)
 =end
-sequence = [1, 2]
 
-(2..43).each do |n|
-   next_number = sequence[n-1] + sequence[n-2] - 1
-  sequence.push(next_number)
+def fibonacci(n)
+  a = 1
+  b = 2
+
+  (n - 2).times do
+    temp = a
+    a = b
+    b = temp + b - 1
+  end
+
+  return b
 end
 
-answer = sequence[43]
-puts answer
+puts fibonacci(13)
