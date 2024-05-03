@@ -30,4 +30,4 @@ def fibonacci(n)
   return b
 end
 
-puts fibonacci(13)
+puts fibonacci(44)
