@@ -19,12 +19,15 @@ range = gets.to_i
 devisor(num,range)
 =end
 
-a = 1
-b = 2
-
-9.times do
-  c = a + b - 1
-  a = b
-  b = c
+def apple(num)
+  if  num <= 100 && num >= 1
+    reslut = num
+    puts 5 + reslut
+  else
+    puts "1以上100以下の整数を入力してください"
+  end
 end
-puts b
+
+puts "1以上100以下の整数を入力してください"
+num = gets.to_i
+apple(num)
