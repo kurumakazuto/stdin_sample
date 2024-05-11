@@ -1,4 +1,4 @@
-=begin
+
 def multiple(num1,num2,num3)
   count = []
   (1..num1).each do |result|
@@ -14,6 +14,5 @@ num1 = gets.to_i
 num2 = gets.to_i
 num3 = gets.to_i
 multiple(num1,num2,num3)
-=end
 
 #アルゴリズム2.4.4
