@@ -19,15 +19,3 @@ range = gets.to_i
 devisor(num,range)
 =end
 
-def apple(num)
-  if  num <= 100 && num >= 1
-    reslut = num
-    puts 5 + reslut
-  else
-    puts "1以上100以下の整数を入力してください"
-  end
-end
-
-puts "1以上100以下の整数を入力してください"
-num = gets.to_i
-apple(num)
