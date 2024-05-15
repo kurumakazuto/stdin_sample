@@ -2,8 +2,7 @@ num = 1000000
 five = []
 result = []
 (1..num).each do |count|
-  count += 1
-  if num % count != 0
+  if count % count != 0
     if num % count
   end
   puts result.sum
