@@ -3,7 +3,7 @@ five = []
 result = []
 (1..num).each do |count|
   if count % 2 == 1
-    if num % count
+    result << count
   end
   puts result.sum
 end
