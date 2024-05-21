@@ -1,5 +1,4 @@
 num = 1000000
-five = []
 result = []
 (1..num).each do |count|
   if count % 2 == 1
