@@ -1,8 +1,8 @@
 max_number = 222222222
 max_code = 0
 
-(1..max_number).each do |n|
-  code = n ** 3
+(1..max_number).each do |num|
+  code = num ** 3
 
    break if code > max_number
 
