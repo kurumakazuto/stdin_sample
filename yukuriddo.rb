@@ -5,3 +5,4 @@ def yukuriddo(num1,num2)
 end
 
 puts "数字を二つ選んでください。"
+num = gets.to_i
